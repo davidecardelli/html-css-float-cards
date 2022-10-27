@@ -18,7 +18,8 @@ body {
 }
 
 header{
-	padding-bottom: 1rem;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
 }
 
 h1 {
@@ -49,6 +50,7 @@ a{
 	text-decoration: none;
 	font-size: 0.75rem;
 	display: block;
+	color: #62c3e3;
 }
 
 
@@ -69,9 +71,9 @@ a{
 	background-color: var(--black);
 	color: var(--white);
 	text-align: center;
-	width: calc(100% / 3 - 2rem);
+	width: calc(100% / 3 - 1rem);
 	height: 100px;
-	margin: 1rem 1rem;
+	margin: 1rem 0.5rem;
 }
 
 .nome{
