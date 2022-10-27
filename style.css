@@ -31,8 +31,48 @@ h3 {
 	padding-top: 1rem;
 }
 
-/* UTILITY */
+img {
+	float: left;
+	height: 100px;
+}
+
+p {
+	text-align: left;
+}
+
+a{
+	text-align: left;
+	text-decoration: none;
+}
+
+
+/*MAIN*/
 .container {
 	max-width: 1000px;
 	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.card {
+	float: left;
+	background-color: var(--black);
+	color: var(--white);
+	text-align: center;
+	width: calc(100% / 3 - 2rem);
+	height: 100px;
+	margin: 0 1rem;
+}
+
+.nome{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.ruolo{
+	font-size: 0.75rem;
 }
