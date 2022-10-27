@@ -18,7 +18,7 @@ body {
 }
 
 header{
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
 }
 
 h1 {
@@ -48,6 +48,7 @@ a{
 	text-align: left;
 	text-decoration: none;
 	font-size: 0.75rem;
+	display: block;
 }
 
 
@@ -61,7 +62,6 @@ a{
 	content: '';
 	clear: both;
 	display: table;
-	padding-top: 2rem;
 }
 
 .card {
@@ -71,7 +71,7 @@ a{
 	text-align: center;
 	width: calc(100% / 3 - 2rem);
 	height: 100px;
-	margin: 0 1rem;
+	margin: 1rem 1rem;
 }
 
 .nome{
@@ -81,4 +81,9 @@ a{
 
 .ruolo{
 	font-size: 0.75rem;
+}
+
+.text {
+	margin-top: 1.5rem;
+	margin-left: 7rem;
 }
